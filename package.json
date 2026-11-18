@@ -1,0 +1,18 @@
+{
+  "name": "demoqa-playwright",
+  "version": "1.0.0",
+  "description": "Technical test automation DemoQA dengan Playwright + Page Object Model",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:webtables": "playwright test tests/webTables.spec.ts",
+    "test:droppable": "playwright test tests/droppable.spec.ts",
+    "test:resizable": "playwright test tests/resizable.spec.ts",
+    "test:form": "playwright test tests/practiceForm.spec.ts",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.0.0"
+  }
+}
