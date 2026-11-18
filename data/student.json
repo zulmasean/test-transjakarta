@@ -1,0 +1,10 @@
+{
+  "gender": "Male",
+  "dateOfBirth": "15 Jan 2000",
+  "expectedDateOfBirth": "15 January,2000",
+  "subject": "Maths",
+  "hobby": "Sports",
+  "picture": "profile.png",
+  "state": "NCR",
+  "city": "Delhi"
+}
